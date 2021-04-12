@@ -248,7 +248,7 @@ describe('Blockchain', () => {
                 });
 
                 expect(blockchain.validTransactionData({ chain: newChain.chain})).toBe(false);    
-                expect(errorMock).toHaveBeenCalled(); //something testing
+                expect(errorMock).toHaveBeenCalled(); //something testing 1
             });
         });
     });
